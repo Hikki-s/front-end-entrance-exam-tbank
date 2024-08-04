@@ -1,0 +1,48 @@
+.experience__role {
+	font-weight: 500;
+	font-size: 1.03vw;
+	line-height: 1.55vw;
+}
+
+.experience__company {
+	line-height: 1.24vw;
+	font-weight: 400;
+}
+
+.experience__schedule {
+	line-height: 1.24vw;
+	font-weight: 400;
+	min-width: 4.66vw;
+}
+
+.experience__body {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.82vw;
+}
+
+.experience-list__item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.82vw;
+	padding: 0.82vw;
+	border-radius: 1.03vw;
+	background-color: #ffffff;
+}
+
+.experience__title-item {
+	display: flex;
+	flex-direction: column;
+	min-width: 12.85vw;
+}
+
+.experience__company-info {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.62vw;
+}
+
+.experience__company-separator {
+	line-height: 1.24vw;
+	font-weight: 400;
+}

@@ -1,0 +1,26 @@
+.education__date {
+	font-weight: 500;
+	font-size: 1.03vw;
+	line-height: 1.55vw;
+}
+
+.education__title {
+	font-weight: 500;
+	font-size: 1.03vw;
+	line-height: 1.55vw;
+}
+
+.education__tags {
+	color: #149063;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.1vw;
+}
+
+.education__type {
+	line-height: 1.24vw;
+	font-weight: 400;
+}

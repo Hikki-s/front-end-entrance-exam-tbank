@@ -1,0 +1,28 @@
+{
+  "name": "front-end-entrance-exam-tbank",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://hikki-s.github.io/front-end-entrance-exam-tbank/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{js, css}\" --config ./.prettierrc.json"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.1.0",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint-define-config": "^2.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
+  }
+}

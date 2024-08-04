@@ -1,0 +1,33 @@
+.tools__category {
+	padding: 0.2vw 0.62vw;
+	margin: -0.51vw;
+	background-color: black;
+	border-radius: 6.11vw;
+	color: #ffffff;
+	font-size: 0.51vw;
+	font-weight: 500;
+	line-height: 0.66vw;
+}
+
+.tools__list {
+	box-sizing: border-box;
+	padding: 1.65vw 0.41vw;
+	margin: 0;
+	display: grid;
+	grid-template-columns: 2.07vw 2.07vw;
+	list-style: none;
+	gap: 1.65vw;
+	justify-content: center;
+}
+
+.tools__list-item img {
+	width: 2.07vw;
+}
+
+.tools__item {
+	border-radius: 0.62vw;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
